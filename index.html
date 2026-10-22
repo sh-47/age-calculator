@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="icon">🎂</div>
+        <h1>Age Calculator</h1>
+        <p class="subtitle">Discover your exact age in seconds!</p>
+
+        <label for="birthdate">Enter Your Date of Birth</label>
+        <input type="date" id="birthdate">
+
+        <button id="calculateBtn">Calculate My Age</button>
+
+        <p id="error" role="alert"></p>
+
+        <div class="result" id="result" aria-live="polite">
+            <h2>Your Age</h2>
+
+            <div class="age-boxes">
+                <div class="age-box">
+                    <span id="years">0</span>
+                    <small>Years</small>
+                </div>
+                <div class="age-box">
+                    <span id="months">0</span>
+                    <small>Months</small>
+                </div>
+                <div class="age-box">
+                    <span id="days">0</span>
+                    <small>Days</small>
+                </div>
+            </div>
+
+            <p id="message"></p>
+        </div>
+
+        <footer>Made with ❤️ using HTML, CSS & JavaScript</footer>
+    </div>
+
+</body>
+</html>
